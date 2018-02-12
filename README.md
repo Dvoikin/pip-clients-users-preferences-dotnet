@@ -1,4 +1,4 @@
-# Quotes Microservice Client SDK for .NET
+# Users preferences Microservice Client SDK for .NET
 
 This is a .NET client SDK for [pip-services-users-preferences-dotnet] https://github.com/Dvoikin/pip-services-users-preferences-dotnet microservice.
 
