@@ -1,0 +1,11 @@
+C:\Work\ice\pip-clients-users-preferences-dotnet\pip-clients-users-preferences-dotnet\bin\Debug\netcoreapp2.0\pip-clients-users-preferences-dotnet.deps.json
+C:\Work\ice\pip-clients-users-preferences-dotnet\pip-clients-users-preferences-dotnet\bin\Debug\netcoreapp2.0\pip-clients-users-preferences-dotnet.runtimeconfig.json
+C:\Work\ice\pip-clients-users-preferences-dotnet\pip-clients-users-preferences-dotnet\bin\Debug\netcoreapp2.0\pip-clients-users-preferences-dotnet.runtimeconfig.dev.json
+C:\Work\ice\pip-clients-users-preferences-dotnet\pip-clients-users-preferences-dotnet\bin\Debug\netcoreapp2.0\pip-clients-users-preferences-dotnet.dll
+C:\Work\ice\pip-clients-users-preferences-dotnet\pip-clients-users-preferences-dotnet\bin\Debug\netcoreapp2.0\pip-clients-users-preferences-dotnet.pdb
+C:\Work\ice\pip-clients-users-preferences-dotnet\pip-clients-users-preferences-dotnet\obj\Debug\netcoreapp2.0\pip-clients-users-preferences-dotnet.csprojResolveAssemblyReference.cache
+C:\Work\ice\pip-clients-users-preferences-dotnet\pip-clients-users-preferences-dotnet\obj\Debug\netcoreapp2.0\pip-clients-users-preferences-dotnet.csproj.CoreCompileInputs.cache
+C:\Work\ice\pip-clients-users-preferences-dotnet\pip-clients-users-preferences-dotnet\obj\Debug\netcoreapp2.0\pip-clients-users-preferences-dotnet.AssemblyInfoInputs.cache
+C:\Work\ice\pip-clients-users-preferences-dotnet\pip-clients-users-preferences-dotnet\obj\Debug\netcoreapp2.0\pip-clients-users-preferences-dotnet.AssemblyInfo.cs
+C:\Work\ice\pip-clients-users-preferences-dotnet\pip-clients-users-preferences-dotnet\obj\Debug\netcoreapp2.0\pip-clients-users-preferences-dotnet.dll
+C:\Work\ice\pip-clients-users-preferences-dotnet\pip-clients-users-preferences-dotnet\obj\Debug\netcoreapp2.0\pip-clients-users-preferences-dotnet.pdb

@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Library</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <ApplicationIcon />
+    <StartupObject />
+    <RootNamespace>PipServices.Users.Preferences.Client</RootNamespace>
+    <AssemblyName>PipServices.Users.Preferences.Client</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PipServices.Commons" Version="2.2.1" />
+    <PackageReference Include="PipServices.Net" Version="2.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PipServices.UsersPreferences">
+      <HintPath>..\..\pip-services-users-preferences-dotnet\run\bin\Debug\netcoreapp2.0\PipServices.UsersPreferences.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>

@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp2.0</TargetFramework>
+    <RootNamespace>PipServices.Users.Preferences.Client.Test</RootNamespace>
+    <AssemblyName>PipServices.Users.Preferences.Client.Test</AssemblyName>
+    <ApplicationIcon />
+    <StartupObject />
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="PipServices.Commons" Version="2.2.1" />
+    <PackageReference Include="PipServices.Data" Version="2.2.1" />
+    <PackageReference Include="PipServices.Net" Version="2.1.1" />
+    <PackageReference Include="xunit" Version="2.3.1" />
+    <PackageReference Include="xunit.runner.console" Version="2.3.1" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.3.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\src\src.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="PipServices.UsersPreferences">
+      <HintPath>..\..\pip-services-users-preferences-dotnet\src\bin\Debug\netcoreapp2.0\PipServices.UsersPreferences.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
