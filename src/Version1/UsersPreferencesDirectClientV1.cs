@@ -12,7 +12,7 @@ using dataType = PipServices.UsersPreferences.Data.Version1.UserPreferencesV1;
 
 namespace PipServices.Users.Preferences.Client.Version1
 {
-    public class UsersPreferencesDirectClientV1 : DirectClient<dynamic>, IUsersPreferencesClientV1<dataType>
+    public class UsersPreferencesDirectClientV1 : DirectClient<UsersPreferencesController>, IUsersPreferencesClientV1<dataType>
     {
         public UsersPreferencesDirectClientV1() : base()
         {
@@ -33,6 +33,11 @@ namespace PipServices.Users.Preferences.Client.Version1
 
         public async Task<dataType> ClearUserPreferencesAsync(string correlationId, dataType userPreferences) {
             return await this._controller.ClearUserPreferencesAsync(correlationId, userPreferences);
+        }
+
+        public async Task<dataType> ClearUsersPreferencesAsync(string correlationId)
+        {
+            return await this._controller.ClearUsersPreferencesAsync(correlationId);
         }
     }
 }

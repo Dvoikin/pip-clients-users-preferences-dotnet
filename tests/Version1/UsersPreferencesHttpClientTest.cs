@@ -53,6 +53,7 @@ namespace PipServices.Users.Preferences.Client.Version1
         [Fact]
         public async void TestCrudOperations()
         {
+            await _client.ClearUsersPreferencesAsync(null);
             // Create one user preferences
             dataType userPreferences1 = await _client.SetUserPreferencesAsync(null, USER_PREFERENCES1);
 
@@ -100,6 +101,8 @@ namespace PipServices.Users.Preferences.Client.Version1
         [Fact]
         public async void TestGetByFilterAsync()
         {
+            await _client.ClearUsersPreferencesAsync(null);
+
             await _client.SetUserPreferencesAsync(null, USER_PREFERENCES1);
             await _client.SetUserPreferencesAsync(null, USER_PREFERENCES2);
             await _client.SetUserPreferencesAsync(null, USER_PREFERENCES3);

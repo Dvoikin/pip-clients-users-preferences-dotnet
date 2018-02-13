@@ -11,5 +11,6 @@ namespace PipServices.Users.Preferences.Client.Version1
         Task<T> GetUserPreferencesByIdAsync(string correlationId, string userPreferencesId);
         Task<T> SetUserPreferencesAsync(string correlationId, T userPreferences);
         Task<T> ClearUserPreferencesAsync(string correlationId, T userPreferences);
+        Task<T> ClearUsersPreferencesAsync(string correlationId);
     }
 }

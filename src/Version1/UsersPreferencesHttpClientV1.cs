@@ -56,5 +56,16 @@ namespace PipServices.Users.Preferences.Client.Version1
                 });
             }
         }
+
+        public Task<UserPreferencesV1> ClearUsersPreferencesAsync(string correlationId)
+        {
+            using (var timing = Instrument(correlationId))
+            {
+                return CallCommand<UserPreferencesV1>("clear_users_preferences", correlationId, new
+                {
+                    correlation_id = correlationId
+                });
+            }
+        }
     }
 }
