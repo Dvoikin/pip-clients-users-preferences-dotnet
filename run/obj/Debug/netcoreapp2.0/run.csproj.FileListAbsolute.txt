@@ -11,3 +11,5 @@ C:\Work\ice\pip-clients-users-preferences-dotnet\run\bin\Debug\netcoreapp2.0\Pip
 C:\Work\ice\pip-clients-users-preferences-dotnet\run\obj\Debug\netcoreapp2.0\run.dll
 C:\Work\ice\pip-clients-users-preferences-dotnet\run\obj\Debug\netcoreapp2.0\run.pdb
 C:\Work\ice\pip-clients-users-preferences-dotnet\run\obj\Debug\netcoreapp2.0\run.csprojResolveAssemblyReference.cache
+C:\Work\ice\pip-clients-users-preferences-dotnet\run\bin\Debug\netcoreapp2.0\PipServices.UsersPreferences.dll
+C:\Work\ice\pip-clients-users-preferences-dotnet\run\bin\Debug\netcoreapp2.0\PipServices.UsersPreferences.pdb

@@ -8,28 +8,30 @@ using PipServices.Commons.Refer;
 using PipServices.Net.Direct;
 using PipServices.UsersPreferences.Logic;
 
+using dataType = PipServices.UsersPreferences.Data.Version1.UserPreferencesV1;
+
 namespace PipServices.Users.Preferences.Client.Version1
 {
-    public class UsersPreferencesDirectClientV1 : DirectClient<dynamic>, IUsersPreferencesClientV1
+    public class UsersPreferencesDirectClientV1 : DirectClient<dynamic>, IUsersPreferencesClientV1<dataType>
     {
         public UsersPreferencesDirectClientV1() : base()
         {
             this._dependencyResolver.Put("controller", new Descriptor("pip-services-users-preferences", "controller", "*", "*", "*"));
         }
 
-        public async Task<DataPage<UserPreferencesV1>> GetUsersPreferencesAsync(string correlationId, FilterParams filter, PagingParams paging) {
+        public async Task<DataPage<dataType>> GetUsersPreferencesAsync(string correlationId, FilterParams filter, PagingParams paging) {
             return await this._controller.GetUsersPreferencesAsync(correlationId, filter, paging);
         }
 
-        public async Task<UserPreferencesV1> GetUserPreferencesByIdAsync(string correlationId, string userPreferencesId) {
+        public async Task<dataType> GetUserPreferencesByIdAsync(string correlationId, string userPreferencesId) {
             return await this._controller.GetUserPreferencesByIdAsync(correlationId, userPreferencesId);
         }
 
-        public async Task<UserPreferencesV1> SetUserPreferencesAsync(string correlationId, dynamic userPreferences) {
+        public async Task<dataType> SetUserPreferencesAsync(string correlationId, dataType userPreferences) {
             return await this._controller.SetUserPreferencesAsync(correlationId, userPreferences);
         }
 
-        public async Task<UserPreferencesV1> ClearUserPreferencesAsync(string correlationId, dynamic userPreferences) {
+        public async Task<dataType> ClearUserPreferencesAsync(string correlationId, dataType userPreferences) {
             return await this._controller.ClearUserPreferencesAsync(correlationId, userPreferences);
         }
     }

@@ -5,7 +5,7 @@ using PipServices.Net.Rest;
 
 namespace PipServices.Users.Preferences.Client.Version1
 {
-    public class UsersPreferencesHttpClientV1 : CommandableHttpClient, IUsersPreferencesClientV1
+    public class UsersPreferencesHttpClientV1 : CommandableHttpClient, IUsersPreferencesClientV1<UserPreferencesV1>
     {
         public UsersPreferencesHttpClientV1()
             : base("users_preferences")
